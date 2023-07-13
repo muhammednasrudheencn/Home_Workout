@@ -242,7 +242,7 @@ class _ProfilepageState extends State<Profilepage> {
                                               )
                                             ],
                                           )
-                                        : const Text('Loading');
+                                        : const Text('Loading...');
                                   }),
                             ),
                           ),
