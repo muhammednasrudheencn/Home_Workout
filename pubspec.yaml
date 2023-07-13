@@ -1,0 +1,151 @@
+name: workout_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0  
+  table_calendar: ^3.0.9
+  shared_preferences: ^2.2.0  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets\Screenshot (117).png
+    - assets\Screenshot (119)-min.png
+    - assets\istockphoto-1324042769-612x612-min.jpg
+    - assets\162-1627076_gym-male-cartoon-png-transparent-png-min.png
+    - assets\png-clipart-cartoon-woman-girl-fitness-coach-comics-physical-fitness-thumbnail-min.png
+    - assets\lose-weight-app-for-men-1 (1)-min.jpg
+    - assets\bodybuilding-tips-min.jpg
+    - assets\81792e1d-c283-4ac2-8d17-80f459965944.jpg-output-min.png
+    - assets\1b3677ecb1039fdc6ae0de251b5a0f8c-min.jpg
+    - assets\f915fdc5-f0ee-4e63-a826-4df7491b3ebe.jpg-output-min.png
+    - assets\81792e1d-c283-4ac2-8d17-80f459965944.jpg-output-min.png
+    - assets\young-fitness-man-studio_7502-5007.jpg
+    - assets\360_F_251398843_ID4J3cRbxy9ufibLwrQBUtS2wIoKTANc-min.jpg
+    - assets\360_F_176215790_xomZ0hUsR3ciKd4JLLQCjaUDhI88QL7E-min.jpg
+    - assets\images (1)-min.jpeg
+    - assets\istockphoto-1004109074-612x612-min.jpg
+    - assets\photo-1611672585731-fa10603fb9e0-min.jpeg
+    - assets\workout\abdomal crunches-min.gif
+    - assets\workout\cobra stretch-min.jpg
+    - assets\workout\heel touch 1-min.jpg
+    - assets\workout\jumbing jacks-min.gif
+    - assets\workout\leg raises-min.jpg
+    - assets\workout\moountain climber-min.gif
+    - assets\workout\plank-min.gif
+    - assets\workout\russian twist-min.jpg
+    - assets\workout\spinlumber-min.jpeg
+    - assets\workout\cross over crunces-min.jpg
+    - assets\workout\side bridge-min.png
+    - assets\workout\v up-min.jpg
+    - assets\workout\bicycle crunches-min.jpg
+    - assets\workout\BUTT BRIDGE-min.jpg
+    - assets\workout\incline pusup.jpg
+    - assets\workout\knee pushups-min.jpg
+    - assets\workout\push up-min.jpg
+    - assets\workout\hindu push up-min.png
+    - assets\workout\chest stretch-min.png
+    - assets\workout\arm rises-min.jpg
+    - assets\workout\wide arm raises-min.jpg
+    - assets\workout\trickeps drips-min.png
+    - assets\workout\arm circle-min.jpg
+    - assets\workout\diamond pushup-min.jpg
+    - assets\workout\diagonal plank-min.jpg
+    - assets\workout\punches-min.jpg
+    - assets\workout\inch worms-min.png
+    - assets\workout\wallpushup-min.jpg
+    - assets\workout\trickep stretch-min.jpg
+    - assets\workout\standing bicebs-min.jpg
+    - assets\workout\squats-min.jpg
+    - assets\workout\side lying-min.jpg
+    - assets\workout\backward-min.jpg
+    - assets\workout\donkey kicks-min.jpg
+    - assets\workout\left quad-min.jpg
+    - assets\workout\knee to chest-min.jpg
+    - assets\workout\calf raises-min.jpg
+    - assets\workout\sumo quats-min.jpg
+    - assets\workout\calf stretch-min.jpg
+    - assets\workout\arm sissors.jpg
+    - assets\workout\catcow pose.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
