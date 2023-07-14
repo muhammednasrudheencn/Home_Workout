@@ -7,7 +7,7 @@
      android:name="android.permission.READ_EXTERNAL_STORAGE"
      android:maxSdkVersion="18" />
     <application
-        android:label="workout_app"
+        android:label="HOME WORKOUT"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

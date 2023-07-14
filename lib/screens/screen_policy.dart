@@ -136,8 +136,7 @@ class Privacypolicy extends StatelessWidget {
                           height: 10,
                         ),
                         Text(
-                            '''         If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at workouthome57@gmail.com.
-
+                            '''         If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at workouthome57@gmail.com 
 THANK YOU.'''),
                         SizedBox(
                           height: 30,
